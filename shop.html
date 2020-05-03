@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shopping List</h1>
+    </header>
+    
+    <div>
+    <button id="total" class="btn" onclick="shop()">Full List</button>
+    <button id="veg" class="btn" onclick="searchveg()">Vegetable list</button>
+    <button id="gra" class="btn" onclick="grain()">Grain List</button>
+    <button id="condi" class="btn" onclick="condiments()">Condiments</button>
+    <button id="oth" class="btn" onclick="others()">Others</button>
+    </div>
+        <div id="list" ></div>
+        <div id="veglist"></div>
+        <div id="grains" ></div>
+        <div id="condiment" ></div>
+        <div id="others"></div>
+</body>
+<script src="shop.js"></script>
+</html>

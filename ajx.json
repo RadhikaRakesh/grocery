@@ -1,0 +1,19 @@
+{
+    "grocery":[
+      { "serialNo":"101",
+        "name":"Rice",
+        "quantity":"5",
+        "unit":"kg",
+        "department":"Grain",
+        "notes":"Nirapara"
+      },
+      {
+        "serialNo":"102",
+        "name":"Potato",
+        "quantity":"1",
+        "unit":"kg",
+        "department":"Vegetable",
+        "notes":"Medium size"
+      }
+    ]
+}
