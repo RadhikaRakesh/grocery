@@ -1,5 +1,6 @@
 body{
     background-color: #d198c5ff;
+    margin: 0;
 }
 div{
     margin: 50px;
@@ -18,26 +19,31 @@ table, th, td {
 }
 table tr {
     color: #00539cff;
-height: 30px;
+height: 50px;
 
 }
+header {
+    
+    text-align: center;
+    background: gold;
+    padding: 25px;
+  }
 .btn{
-    background-color:#4caf50;
+    background-color:rgb(27, 240, 38);
     color:white;
     text-align: center;
     width: 100px;
     height: 50px;
 }
 table{
-    width: 75%;
+    max-width: 75%;
     table-layout: fixed;
-    overflow: scroll;
-
     background-color: gold;
 
 }
 table th {
-    height: 50px;
+    
+    height: 75px;
     background-color: rgb(27, 240, 38);
     color:#422057ff;
   }
